@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ajax.css">
+    <title>Top 3 albums generator</title>
+</head>
+
+<body>
+    <!--Input field that sends user input to the API.-->
+    <div class="input">
+        <input type="text" id="textfield">
+        <button id="search">Search</button>
+    </div>
+    <h1 id="artistName" class="text"></h1>
+    <!--Elements wrapped inside divs for easy style changing.-->
+    <div class="flexBox">
+        <div class="infoBox">
+            <img id="album1" src="">
+            <h3 id="infoText1" class="text"></h3>
+            <table id="table" class="table">
+                <tr>
+                </tr>
+            </table>
+        </div>
+        <div class="infoBox">
+            <img id="album2" src="">
+            <h3 id="infoText2" class="text"></h3>
+            <table id="table2" class="table">
+                <tr>
+                </tr>
+            </table>
+        </div>
+        <div class="infoBox">
+            <img id="album3" src="">
+            <h3 id="infoText3" class="text"></h3>
+            <table id="table3" class="table">
+                <tr>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!--Javascript source at the bottom of the code to enable event listeners.-->
+    <script src="ajax.js"></script>
+</body>
+
+</html>

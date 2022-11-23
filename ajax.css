@@ -1,0 +1,42 @@
+
+#textfield {
+    background-color: brown;
+}
+#search {
+    background-color: brown;
+}
+.table {
+    color:red;
+}
+/*flexBox allows the infoBox divs to be neatly organised. */
+.flexBox {
+    display: flex;
+    flex-direction: row;
+    background-color: #030554;
+    justify-content: center;
+}
+/*Making the browser window smaller will change 
+the direction of the FlexBox to column instead of row for easier use. */
+@media (max-width: 800px) {
+    .flexBox {
+        flex-direction: column;
+    }
+}
+.infoBox {
+    margin: 10px;
+    padding: 20px;
+}
+body {
+    background-color: #030554;
+}
+.text {
+    color: red;
+}
+#artistName {
+    text-align: center;
+    text-shadow: 1px 1px #ddd3d3;
+
+}
+.input {
+    text-align: center;
+}
