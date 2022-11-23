@@ -9,5 +9,7 @@ No code here is directly copied from anywhere, but countless of Stackoverflow th
 Link to the website hosted in Netlify: https://moonlit-piroshki-9fc544.netlify.app/
 
 https://stackoverflow.com/
+
 https://www.w3schools.com/
+
 https://www.last.fm/api
